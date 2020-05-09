@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #FFFFF0;
+    margin: 0
+  }
+  
+
+  /* Nav Bar */
+
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color:#eceff1
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    padding: 9px;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+.bio {
+    color: #595758;
+}
+
+.projects {
+    color: #595758;
+}
+
+.github {
+    color: #595758;
+}
+
+.linkedin {
+    color: #595758;
+}
+
+  h1 {
+      font-size: 25px;
+      font-family: 'Ovo', serif;
+  }
+
+  p {
+    font-family: 'Fauna One', serif;
+  }
+
+  .fas {
+      font-size: 40px;
+  }
+  
+  h2 {
+      font-size: 25px;
+  }
+  
+  
+  header {
+    padding: 12% 0;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 6% 10px;
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 92%;
+    margin: 0 auto;
+    margin-bottom: 7px;
+  }
+
+  /* Section Coloring 
+
+  .section1 {
+      background-color: #F0FFF0
+  }
+  
+  .project1 {
+      background-color:  #ffd699
+  }
+
+  .project2 {
+    background-color: #F0FFF0
+}
+
+.section4 {
+    background-color:  #ffd699
+}
+
+.section5 {
+    background-color: #F0FFF0
+}
+
+*/
+
+section li {
+    list-style-type: decimal;
+    font-family: 'Fauna One', serif;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+/* Projects Styling */
+
+
+.tech-icons {
+    margin-top: -15px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fab {
+ padding: 20px;
+}
+
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.live {
+    margin-right: 10px;
+}
+
+.quiz-app {
+    margin-bottom: -30px;
+}
+
+.bookmark-img {
+ height: 400px;  
+}
+
+.addform-img {
+    height: 500px;  
+   }
+
+.quizapp-img {
+  height:400px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .bookmark-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .addform-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .quizapp-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .bookmark-img {
+        margin: 0 auto;
+        width: 300px;
+        height: 400px;
+    }
+
+
+p {
+    max-width: 75ch;
+  }
+
+  .addform-img {
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+}
+
+.quizapp-img {
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+}
+
+section {
+    margin-bottom: 15px;
+}
+
+nav li {
+    padding: 100px;
+    list-style-type: none;
+    
+}
+
+.linkedin {
+    margin-right: 100px;
+}
+
+}
