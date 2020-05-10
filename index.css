@@ -36,8 +36,9 @@
 }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    margin-right: auto;
+    margin-left: 10px;
 }
 
 nav li {
@@ -47,7 +48,28 @@ nav li {
 
 nav a {
     text-decoration: none;
+}
 
+
+
+
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: -29px;
+    margin-right: 5px;
+}
+
+
+.contact-list {
+   text-decoration: none;
+   list-style-type: none;
+}
+
+.contact {
+    color: #595758;;
 }
 
 .bio {
@@ -60,11 +82,19 @@ nav a {
 
 .github {
     color: #595758;
+    text-decoration: none;
+}
+
+.Email {
+    color: #595758;
+    text-decoration: none;
 }
 
 .linkedin {
     color: #595758;
+    text-decoration: none;
 }
+
 
   h1 {
       font-size: 25px;
@@ -125,11 +155,11 @@ nav a {
 
 */
 
-section li {
+.quiz-app {
     list-style-type: decimal;
     font-family: 'Fauna One', serif;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 
