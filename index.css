@@ -197,6 +197,7 @@ a.repo {
 a.live {
     text-decoration: none;
     cursor: pointer;
+    color: black;
 }
 
 
