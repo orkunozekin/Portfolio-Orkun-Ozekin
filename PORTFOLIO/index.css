@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #FFFFF0;
+    margin: 0
+  }
+  
+
+  /* Nav Bar */
+
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color:#eceff1
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul {
+    display:flex;
+    margin: 0 auto;
+}
+
+nav li {
+    padding: 9px;
+    list-style-type: none;
+}
+
+
+#contact-section {
+    
+}
+
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 100%;
+    margin-left: -37px;
+}
+
+
+.contact-list {
+   text-decoration: none;
+   list-style-type: none;
+}
+
+.contact {
+    color: #595758;;
+}
+
+.bio {
+    color: #595758;
+}
+
+.projects {
+    color: #595758;
+}
+
+.github {
+    color: #595758;
+    text-decoration: none;
+}
+
+.Email {
+    color: #595758;
+    text-decoration: none;
+}
+
+.linkedin {
+    color: #595758;
+    text-decoration: none;
+}
+
+
+  h1 {
+      font-size: 25px;
+      font-family: 'Ovo', serif;
+  }
+
+  p {
+    font-family: 'Fauna One', serif;
+  }
+
+  .fab {
+      font-size: 40px;
+  }
+
+  .fab.fa-linkedin {
+      margin-right: 10px;
+  }
+
+  .fas {
+      font-size: 40px;
+  }
+
+  /* .fas.fa-envelope {
+      font-size: 30px;
+  } */
+  
+  h2 {
+      font-size: 25px;
+  }
+  
+  
+  header {
+    padding: 12% 0;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 6% 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    max-width: 875px;
+    width: 92%;
+    margin: 0 auto;
+    margin-bottom: 7px;
+  }
+
+  /* Section Coloring 
+
+  .section1 {
+      background-color: #F0FFF0
+  }
+  
+  .project1 {
+      background-color:  #ffd699
+  }
+
+  .project2 {
+    background-color: #F0FFF0
+}
+
+.section4 {
+    background-color:  #ffd699
+}
+
+.section5 {
+    background-color: #F0FFF0
+}
+
+*/
+
+
+
+/* Projects Styling */
+
+
+.tech-icons {
+    margin-top: -15px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fab {
+ padding: 20px;
+}
+
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a.repo {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+a.live {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+
+.live {
+    margin-right: 10px;
+}
+
+.quiz-app {
+    margin-bottom: -30px;
+}
+
+img {
+    object-fit: contain;
+}
+
+.bookmark-img {
+ height: 400px;  
+}
+
+.addform-img {
+    height: 500px;  
+   }
+
+.quizapp-img {
+  height:400px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .bookmark-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .addform-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .quizapp-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .bookmark-img {
+        margin: 0 auto;
+        width: 300px;
+        height: 400px;
+    }
+
+
+p {
+    max-width: 75ch;
+  }
+
+  .addform-img {
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+}
+
+.quizapp-img {
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+}
+
+section {
+    margin-bottom: 15px;
+}
+
+nav li {
+    padding: 100px;
+    list-style-type: none;
+    
+}
+
+
+}
