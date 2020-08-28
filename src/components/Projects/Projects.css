@@ -1,0 +1,12 @@
+img {
+    object-fit: contain;
+    align-self: center;
+    width: 120px;
+    /* max-height: 30vh;
+    max-width: 50vw; */
+    border: 3px solid #faf3dd;
+}
+
+img:hover {
+    width: 250px;
+}
