@@ -7,6 +7,8 @@ import Hero from '../Hero/Hero';
 import AboutMe from '../AboutMe/AboutMe';
 import Projects from '../Projects/Projects';
 import ContactMe from '../ContactMe/ContactMe';
+import Footer from '../Footer/Footer';
+
 
 const App = () => {
 
@@ -23,6 +25,7 @@ const App = () => {
         <Projects />
         <ContactMe />
       </main>
+      <Footer />
     </animated.div>
   );
 

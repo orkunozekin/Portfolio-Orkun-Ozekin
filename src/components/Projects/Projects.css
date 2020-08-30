@@ -1,17 +1,11 @@
-
-    
-
-  .each-slide > div {
-    
+.each-slide>div {
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: 100vw;
     width: 100vw;
     height: 71vh;
-  }
-
-
+}
 
 img {
     object-fit: contain;
@@ -23,7 +17,7 @@ img {
 
 .each-project {
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
-    margin: 5vh auto;
+    margin: 5vh 10px;
     background: #cedebd;
 }
 
@@ -46,6 +40,10 @@ img:hover {
 
 .link i {
     font-size: 25px;
+}
+
+.link-icon {
+    font-size: 25px;
     color: black;
 }
 
@@ -59,36 +57,35 @@ img:hover {
     font-size: 25px;
 }
 
+p {
+    line-height: 2.3;
+}
 
 @media screen and (min-width: 768px) {
     .each-project {
         margin: 5vh 10vw;
     }
-
     .link i {
         font-size: 35px;
     }
-
     .tech-used i {
         font-size: 35px;
     }
-
-    .each-slide > div {
-    position: static ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: 30vw;
-    height: 51vh;
-    width: 30vw;
-    margin: 0 auto;
-  }
+    .each-slide>div {
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: 30vw;
+        height: 51vh;
+        width: 30vw;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-    
-    .each-slide > div {
-        position: static ;
+    .each-slide>div {
+        position: static;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -96,5 +93,5 @@ img:hover {
         height: 57vh;
         width: 25vw;
         margin: 0 auto;
-      }
+    }
 }

@@ -13,10 +13,8 @@ import CSBless from '../src/screenshots/cs-bless-page.png';
 import CSCurse from '../src/screenshots/cs-curse-page.png';
 import CSDashboard from '../src/screenshots/cs-dashboard.png';
 //Spaced Repetition
-import SRDashboard from '../src/screenshots/sr-dashboard.png';
-import SRTranslate from '../src/screenshots/sr-translate.png';
-import SRCorrect from '../src/screenshots/sr-correct-page.png';
-import SRIncorrect from '../src/screenshots/sr-incorrect-page.png';
+import SRDashboard from '../src/screenshots/sf-dashboard.png';
+import SRTranslate from '../src/screenshots/sf-translate.png';
 //Bookmarks
 import Bookmarks from '../src/screenshots/bookmarks.png';
 import BookmarksAdd from '../src/screenshots/add-bookmarks.png';
@@ -30,7 +28,7 @@ import { SiJquery, SiJavascript, SiPostgresql } from 'react-icons/si';
 const store = [
     {
         name: 'Cursr',
-        desc: <p>The main function is to Curse, which can be done anonymously if desired. When you Curse, you can scream out your frustrations or anything desired without regard to social constraints, which can be cathartic. When you Curse, only one other person in the world will be able to see it, and they will not see who sent it. If desired, they can use the other main function of Cursr: Bless. This is where they read the Curse and stamp a unicode character to it. As a Curser, you do not need to worry about hearing any kind of judgement or anything from the Blesser; the only thing you will see is that your Curse has been read and emblazoned with a unicode character.</p>,
+        desc: <div><p><b>Cursr</b> is for those who just want to "vent" into the void. This app allows users to curse into a void where only one other user will see their curse and have the option to bless their curse with an emoji. The user cursing will be able to view their blessed curse.</p><p>The goal of <b>Cursr</b> is to bring some sort of relief to the cursing user by letting them know that somenone out there has heard them and felt for them.</p><p>This project was a team effort and I was primarily responsible for retrieving data from our server through API calls and implementing them to the UI along with the app's functionality on the client side.</p></div>,
         images: [
             {
                 imgTitle: "Dashboard",
@@ -39,10 +37,6 @@ const store = [
             {
                 imgTitle: "Curse Page",
                 img: CSCurse
-            },
-            {
-                imgTitle: "Bless Page",
-                img: CSBless
             },
         ],
         tech: [
@@ -66,15 +60,15 @@ const store = [
         links: [
             {
                 name: 'Live Link',
-                link: <a href="https://capstone-3-oabkt.vercel.app/" target="_blank"><FaLink /></a>
+                link: <a href="https://capstone-3-oabkt.vercel.app/" target="_blank"><FaLink className="link-icon"/></a>
             },
             {
                 name: 'Client Repo',
-                link: <a href="https://github.com/thinkful-ei-macaw/Capstone-3-OABKT---Client" target="_blank"><FaGithub /></a>,
+                link: <a href="https://github.com/thinkful-ei-macaw/Capstone-3-OABKT---Client" target="_blank"><FaGithub className="link-icon"/></a>,
             },
             {
                 name: 'Server Repo',
-                link: <a href="https://github.com/thinkful-ei-orka/Capstone-3-O-K-A-B-T-Server" target="_blank"><FaGithub /></a>,
+                link: <a href="https://github.com/thinkful-ei-orka/Capstone-3-O-K-A-B-T-Server" target="_blank"><FaGithub className="link-icon"/></a>,
             },
         ]
     },
@@ -91,10 +85,6 @@ const store = [
                 imgTitle: "Results Page",
                 img: ACResults
             },
-            {
-                imgTitle: "Submit Chords Page",
-                img: ACSubmit
-            },
         ],
         tech: [
             {
@@ -117,15 +107,15 @@ const store = [
         links: [
             {
                 name: 'Live Link',
-                link: <a href="https://atlas-chords.orkunozekin.vercel.app/" target="_blank"><FaLink /></a>
+                link: <a href="https://atlas-chords.orkunozekin.vercel.app/" target="_blank"><FaLink className="link-icon"/></a>
             },
             {
                 name: 'Client Repo',
-                link: <a href="https://github.com/orkunozekin/Atlas-Chords-Client" target="_blank"><FaGithub /></a>,
+                link: <a href="https://github.com/orkunozekin/Atlas-Chords-Client" target="_blank"><FaGithub className="link-icon"/></a>,
             },
             {
                 name: 'Server Repo',
-                link: <a href="https://github.com/orkunozekin/Atlas-Chords-Node-Express" target="_blank"><FaGithub /></a>,
+                link: <a href="https://github.com/orkunozekin/Atlas-Chords-Node-Express" target="_blank"><FaGithub className="link-icon"/></a>,
             },
         ]
     },
@@ -141,14 +131,6 @@ const store = [
             {
                 imgTitle: "Translation Page",
                 img: SRTranslate
-            },
-            {
-                imgTitle: "Correct Page",
-                img: SRCorrect
-            },
-            {
-                imgTitle: "Incorrect Page",
-                img: SRIncorrect
             },
         ],
 
@@ -169,15 +151,15 @@ const store = [
         links: [
             {
                 name: 'Live Link',
-                link: <a href="https://spaced-repetition-otm.vercel.app/" target="_blank"><FaLink /></a>
+                link: <a href="https://spaced-repetition-otm.vercel.app/" target="_blank"><FaLink className="link-icon"/></a>
             },
             {
                 name: 'Client Repo',
-                link: <a href="https://github.com/thinkful-ei-orka/spaced-repetition-otm" target="_blank"><FaGithub /></a>,
+                link: <a href="https://github.com/thinkful-ei-orka/spaced-repetition-otm" target="_blank"><FaGithub className="link-icon"/></a>,
             },
             {
                 name: 'Server Repo',
-                link: <a href="https://github.com/thinkful-ei-orka/spaced-repetition-api-otm" target="_blank"><FaGithub /></a>,
+                link: <a href="https://github.com/thinkful-ei-orka/spaced-repetition-api-otm" target="_blank"><FaGithub className="link-icon"/></a>,
             },
         ]
     },
@@ -189,10 +171,6 @@ const store = [
             {
                 imgTitle: "Landing Page",
                 img: WCLanding
-            },
-            {
-                imgTitle: "Results Page",
-                img: WCResults
             },
             {
                 imgTitle: "Question Page",
@@ -220,11 +198,11 @@ const store = [
         links: [
             {
                 name: 'Live Link',
-                link: <a href="https://orkunozekin.github.io/Worlds-Capitals/" target="_blank"><FaLink /></a>
+                link: <a href="https://orkunozekin.github.io/Worlds-Capitals/" target="_blank"><FaLink className="link-icon"/></a>
             },
             {
                 name: 'GitHub Repo',
-                link: <a href="https://github.com/orkunozekin/Worlds-Capitals" target="_blank"><FaGithub /></a>,
+                link: <a href="https://github.com/orkunozekin/Worlds-Capitals" target="_blank"><FaGithub className="link-icon"/></a>,
             },
         ]
     },
@@ -263,11 +241,11 @@ const store = [
         links: [
             {
                 name: 'Live Link',
-                link: <a href="https://thinkful-ei-orka.github.io/Bookmark-App-Orkun/" target="_blank"><FaLink /></a>
+                link: <a href="https://thinkful-ei-orka.github.io/Bookmark-App-Orkun/" target="_blank"><FaLink className="link-icon"/></a>
             },
             {
                 name: 'GitHub Repo',
-                link: <a href="https://github.com/orkunozekin/Bookmark-App" target="_blank"><FaGithub /></a>,
+                link: <a href="https://github.com/orkunozekin/Bookmark-App" target="_blank"><FaGithub className="link-icon"/></a>,
             },
         ]
     }

@@ -29,7 +29,7 @@ const Projects = () => {
                     })} </div>
                     <div className="links">{project.links.map(link => {
                         return <div className="link" key={link.name}>
-                            <i>{link.link}</i>
+                            {link.link}
                             <h4>{link.name}</h4>
                         </div>
                     })}</div>

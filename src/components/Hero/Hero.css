@@ -18,6 +18,14 @@
     top: 0;
     line-height: 1.6;
     height: 100vh;
+    background-image: url('../../screenshots/nature.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover
+}
+
+main {
+    padding: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -29,13 +37,13 @@
     }
 
     .hero-h1{
-        color: #f5f1da;
+        color: black;
         text-shadow: 2px 2px #43658b;
     }
     
     .hero-h2{
-        color: #f5f1da;
-        text-shadow: 3px 3px #43658b;
+        color: black;
+        text-shadow: 2px 2px #43658b;
     }
 
     main {
