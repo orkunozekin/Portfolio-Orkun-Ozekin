@@ -6,6 +6,7 @@ import Toggle from '../Toggle/Toggle';
 import Hero from '../Hero/Hero';
 import AboutMe from '../AboutMe/AboutMe';
 import Projects from '../Projects/Projects';
+import ContactMe from '../ContactMe/ContactMe';
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
         <Hero />
         <AboutMe />
         <Projects />
+        <ContactMe />
       </main>
     </animated.div>
   );

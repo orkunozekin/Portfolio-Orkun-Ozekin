@@ -1,0 +1,20 @@
+.contact-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    list-style-type: none;
+    margin-left: -9%;
+    color: black;
+}
+
+.contact-link{
+    font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .contact-link{
+        font-size: 35px;
+    }
+}
+
+

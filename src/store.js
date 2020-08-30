@@ -9,18 +9,23 @@ import WCLanding from '../src/screenshots/wc-landing-page.png';
 import WCQuestion from '../src/screenshots/wc-question-page.png';
 import WCResults from '../src/screenshots/wc-results-page.png';
 //Cursr
-import CSBless from '../src/screenshots/cs-bless-page.png';
-import CSCurse from '../src/screenshots/cs-curse-page.png';
-import CSDashboard from '../src/screenshots/cs-dashboard.png';
-import CSSignUp from '../src/screenshots/cs-sign-up.png';
+import CSBless from '../src/screenshots/cs-bless-page.jpg';
+import CSCurse from '../src/screenshots/cs-curse-page.jpg';
+import CSDashboard from '../src/screenshots/cs-dashboard.jpg';
 //Spaced Repetition
 import SRDashboard from '../src/screenshots/sr-dashboard.png';
 import SRTranslate from '../src/screenshots/sr-translate.png';
 import SRCorrect from '../src/screenshots/sr-correct-page.png';
 import SRIncorrect from '../src/screenshots/sr-incorrect-page.png';
 //Bookmarks
-import Bookmarks from '../src/screenshots/bookmarks.jpg';
-import BookmarksAdd from '../src/screenshots/add-bookmark-form.jpg';
+import Bookmarks from '../src/screenshots/bookmarks.png';
+import BookmarksAdd from '../src/screenshots/add-bookmarks.png';
+//react icons for tech used
+import { AiFillHtml5 } from 'react-icons/ai';
+import { FaCss3Alt, FaNodeJs, FaReact, FaLink, FaGithub } from 'react-icons/fa';
+import { SiJquery, SiJavascript, SiPostgresql } from 'react-icons/si';
+//react icons for live and repo links
+
 
 const store = [
     {
@@ -40,12 +45,43 @@ const store = [
                 img: CSBless
             },
         ],
-        tech: 'Use the Icons for tech'
+        tech: [
+            {
+                techName: 'ReactJS',
+                techIcon:  <FaReact />
+            },
+            {
+                techName: 'Node.js',
+                techIcon: <FaNodeJs />
+            },
+            {
+                techName: 'JavaScript',
+                techIcon: <SiJavascript />
+            },
+            {
+                techName: 'PostgreSQL',
+                techIcon: <SiPostgresql />
+            },
+        ],
+        links: [
+            {
+                name: 'Live Link',
+                link: <a href="https://capstone-3-oabkt.vercel.app/"><FaLink /></a>
+            },
+            {
+                name: 'Client Repo',
+                link: <a href="https://github.com/thinkful-ei-macaw/Capstone-3-OABKT---Client"><FaGithub /></a>,
+            },
+            {
+                name: 'Server Repo',
+                link: <a href="https://github.com/thinkful-ei-orka/Capstone-3-O-K-A-B-T-Server"><FaGithub /></a>,
+            },
+        ]
     },
 
     {
         name: 'Atlas Chords',
-        desc: '',
+        desc: <div><p>When I first started learning guitar in 2006, I was eager to learn one guitar chord after another. I wasn't able to find an app that outright displayed guitar chords based on users' search. That's why I was motivated to create an app that makes the process of finding the basic guitar chords with ease for future guitar players.</p><p>Atlas Chords has been designed for those who are learning the basic guitar chords. These chords are a key part of mastering the basic guitar skills. Users can search and find the 14 basic guitar chords on this app. They can also submit a chord to demonstrate their skills.</p></div>,
         images: [
             {
                 imgTitle: "Landing Page",
@@ -60,12 +96,43 @@ const store = [
                 img: ACSubmit
             },
         ],
-        tech: 'Use the Icons for tech',
+        tech: [
+            {
+                techName: 'ReactJS',
+                techIcon:  <FaReact />
+            },
+            {
+                techName: 'Node.js',
+                techIcon: <FaNodeJs />
+            },
+            {
+                techName: 'JavaScript',
+                techIcon: <SiJavascript />
+            },
+            {
+                techName: 'PostgreSQL',
+                techIcon: <SiPostgresql />
+            },
+        ],
+        links: [
+            {
+                name: 'Live Link',
+                link: <a href="https://atlas-chords.orkunozekin.vercel.app/"><FaLink /></a>
+            },
+            {
+                name: 'Client Repo',
+                link: <a href="https://github.com/orkunozekin/Atlas-Chords-Client"><FaGithub /></a>,
+            },
+            {
+                name: 'Server Repo',
+                link: <a href="https://github.com/orkunozekin/Atlas-Chords-Node-Express"><FaGithub /></a>,
+            },
+        ]
     },
 
     {
         name: 'Spaced Repetition',
-        desc: <div><p>Do you want to learn a language by putting in just 15 to 30 minutes of practice a day? Then SpeakFast is just for you. SpeakFast uses <b>Spaced Repetition algorithm</b> to help people memorize a foreign language. The app displays words in French and asks users to recall the corresponding word in English.</p><p>The words that users are able to recall more easily will be asked less frequently than those that users have more difficulties recalling, therefore enabling users to memorize each word regardless of difficulty.</p><p>This project was created by a team of three including myself, where my responsibility was to write functionality of the app on the front end as well as design it.</p></div>,
+        desc: <div><p>Do you want to learn a language by putting in just 15 to 30 minutes of practice a day? Then SpeakFast is just for you. SpeakFast uses <b>Spaced Repetition algorithm</b> to help people memorize a foreign language. The app displays words in French and asks users to recall the corresponding word in English.</p><p>The words that users are able to recall more easily will be asked less frequently than those that users have more difficulties recalling, therefore enabling users to memorize each word regardless of difficulty.</p><p>This project was created by a team of three including myself, where I was responsible for writing the functionality of the app on the front end as well as design it.</p></div>,
         images: [
             {
                 imgTitle: "Dashboard",
@@ -84,12 +151,40 @@ const store = [
                 img: SRIncorrect
             },
         ],
-        tech: 'Use the Icons for tech'
+
+        tech: [
+            {
+                techName: 'ReactJS',
+                techIcon:  <FaReact />
+            },
+            {
+                techName: 'Node.js',
+                techIcon: <FaNodeJs />
+            },
+            {
+                techName: 'JavaScript',
+                techIcon: <SiJavascript />
+            }
+        ],
+        links: [
+            {
+                name: 'Live Link',
+                link: <a href="https://spaced-repetition-otm.vercel.app/"><FaLink /></a>
+            },
+            {
+                name: 'Client Repo',
+                link: <a href="https://github.com/thinkful-ei-orka/spaced-repetition-otm"><FaGithub /></a>,
+            },
+            {
+                name: 'Server Repo',
+                link: <a href="https://github.com/thinkful-ei-orka/spaced-repetition-api-otm"><FaGithub /></a>,
+            },
+        ]
     },
    
     {
         name: `World's Capitals`,
-        desc: <p></p>,
+        desc: <div><p>Are you confident in your trivia knowledge for world's capitals? Play <b>World's Capitals</b> to prove your skills!</p><p>My first web application ever, <b>World's Capitals</b> take users through a series of multiple choice questions to test their knowledge of world's capitals.</p></div>,
         images: [
             {
                 imgTitle: "Landing Page",
@@ -104,12 +199,39 @@ const store = [
                 img: WCQuestion
             },
         ],
-        tech: 'Use the Icons for tech'
+        tech: [
+            {
+                techName: 'HTML5',
+                techIcon:  <AiFillHtml5 />
+            },
+            {
+                techName: 'CSS3',
+                techIcon: <FaCss3Alt />
+            },
+            {
+                techName: 'jQuery',
+                techIcon: <SiJquery />
+            },
+            {
+                techName: 'JavaScript',
+                techIcon: <SiJavascript />
+            },
+        ],
+        links: [
+            {
+                name: 'Live Link',
+                link: <a href="https://orkunozekin.github.io/Worlds-Capitals/"><FaLink /></a>
+            },
+            {
+                name: 'GitHub Repo',
+                link: <a href="https://github.com/orkunozekin/Worlds-Capitals"><FaGithub /></a>,
+            },
+        ]
     },
 
     {
         name: 'Bookmarks',
-        desc: '',
+        desc: <div><p>I wanted to create a bookmark application that allows users to rate their bookmarks as Google Chrome does not have provide that feature.</p><p>This app allows users to save certain websites by creating bookmarks with descriptions and ratings. It also allows them to filter their bookmarks by their ratings. It's built for people who demand quick access to their favorite websites simply by filtering their bookmarks with five stars, which will conceal those rated less.</p></div>,
         images: [
             {
                 imgTitle: "Bookmarks",
@@ -120,7 +242,34 @@ const store = [
                 img: BookmarksAdd
             },
         ],
-        tech: 'Use the Icons for tech'
+        tech: [
+            {
+                techName: 'HTML5',
+                techIcon:  <AiFillHtml5 />
+            },
+            {
+                techName: 'CSS3',
+                techIcon: <FaCss3Alt />
+            },
+            {
+                techName: 'jQuery',
+                techIcon: <SiJquery />
+            },
+            {
+                techName: 'JavaScript',
+                techIcon: <SiJavascript />
+            },
+        ],
+        links: [
+            {
+                name: 'Live Link',
+                link: <a href="https://thinkful-ei-orka.github.io/Bookmark-App-Orkun/"><FaLink /></a>
+            },
+            {
+                name: 'GitHub Repo',
+                link: <a href="https://github.com/orkunozekin/Bookmark-App"><FaGithub /></a>,
+            },
+        ]
     }
 
 ]

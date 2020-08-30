@@ -2,3 +2,9 @@ main {
     text-align: center;
     padding: 0 10px;
 }
+
+@media screen and (min-width: 768px) {
+main {
+    line-height: 2.5rem;
+}
+}

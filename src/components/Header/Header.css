@@ -2,7 +2,7 @@
     width: 100%;
     position: fixed;
     background-color: #f4f6ff;
-    border: 1px solid black;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
     height: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -14,4 +14,5 @@
 .navbar a {
     text-decoration: none;
     color: #4f8a8b;
+    font-weight: 700;
 }

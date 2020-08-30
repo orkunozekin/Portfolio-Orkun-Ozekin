@@ -7,16 +7,27 @@ const Projects = () => {
 //Then import them in this module and map over them to display them on UI to avoid repeating code. 
 
     return (
-        <section className="projects-wrapper">
+        <section id="projects">
+            <h2>Projects</h2>
             {store.map(project => { //grab each project
                 return <div className="each-project" key={project.name}>
-                    <h4>{project.name}</h4>
+                    <h3 className="project-title">{project.name}</h3>
                     {project.images.map(eachImg => { //grab each image
                         return <img key={eachImg.imgTitle} src={eachImg.img} alt={eachImg.imgTitle}></img>
                     })}
+                    <ul className="links">{project.links.map(link => {
+                        return <li className="link" key={link.name}>
+                            <i>{link.link}</i>
+                            <h4>{link.name}</h4>
+                        </li>
+                    })}</ul>
                     <div>{project.desc}</div>
-                    <h5>Tech Used:</h5>
-                    <div></div>
+                    <h4>Tech Used:</h4>
+                    <div className="tech-used">
+                        {project.tech.map(icons => {
+                            return <i key={icons.techName}>{icons.techIcon}</i>
+                        })}
+                    </div>
                 </div>
             })}
         </section>
