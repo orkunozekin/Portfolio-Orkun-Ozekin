@@ -23,15 +23,16 @@ const Projects = () => {
                         })}
                        
                     </Slide> */}
+                    <div className="images">
                     {project.images.map(eachImg => { //grab each image
-                        return <img key={eachImg.imgTitle} src={eachImg.img} alt={eachImg.imgTitle}></img>
-                    })}
-                    <ul className="links">{project.links.map(link => {
-                        return <li className="link" key={link.name}>
+                        return  <img key={eachImg.imgTitle} src={eachImg.img} alt={eachImg.imgTitle}></img>
+                    })} </div>
+                    <div className="links">{project.links.map(link => {
+                        return <div className="link" key={link.name}>
                             <i>{link.link}</i>
                             <h4>{link.name}</h4>
-                        </li>
-                    })}</ul>
+                        </div>
+                    })}</div>
                     <div>{project.desc}</div>
                     <h4>Tech Used:</h4>
                     <div className="tech-used">

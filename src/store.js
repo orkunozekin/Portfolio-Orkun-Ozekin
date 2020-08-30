@@ -66,15 +66,15 @@ const store = [
         links: [
             {
                 name: 'Live Link',
-                link: <a href="https://capstone-3-oabkt.vercel.app/"><FaLink /></a>
+                link: <a href="https://capstone-3-oabkt.vercel.app/" target="_blank"><FaLink /></a>
             },
             {
                 name: 'Client Repo',
-                link: <a href="https://github.com/thinkful-ei-macaw/Capstone-3-OABKT---Client"><FaGithub /></a>,
+                link: <a href="https://github.com/thinkful-ei-macaw/Capstone-3-OABKT---Client" target="_blank"><FaGithub /></a>,
             },
             {
                 name: 'Server Repo',
-                link: <a href="https://github.com/thinkful-ei-orka/Capstone-3-O-K-A-B-T-Server"><FaGithub /></a>,
+                link: <a href="https://github.com/thinkful-ei-orka/Capstone-3-O-K-A-B-T-Server" target="_blank"><FaGithub /></a>,
             },
         ]
     },
@@ -117,15 +117,15 @@ const store = [
         links: [
             {
                 name: 'Live Link',
-                link: <a href="https://atlas-chords.orkunozekin.vercel.app/"><FaLink /></a>
+                link: <a href="https://atlas-chords.orkunozekin.vercel.app/" target="_blank"><FaLink /></a>
             },
             {
                 name: 'Client Repo',
-                link: <a href="https://github.com/orkunozekin/Atlas-Chords-Client"><FaGithub /></a>,
+                link: <a href="https://github.com/orkunozekin/Atlas-Chords-Client" target="_blank"><FaGithub /></a>,
             },
             {
                 name: 'Server Repo',
-                link: <a href="https://github.com/orkunozekin/Atlas-Chords-Node-Express"><FaGithub /></a>,
+                link: <a href="https://github.com/orkunozekin/Atlas-Chords-Node-Express" target="_blank"><FaGithub /></a>,
             },
         ]
     },
@@ -169,15 +169,15 @@ const store = [
         links: [
             {
                 name: 'Live Link',
-                link: <a href="https://spaced-repetition-otm.vercel.app/"><FaLink /></a>
+                link: <a href="https://spaced-repetition-otm.vercel.app/" target="_blank"><FaLink /></a>
             },
             {
                 name: 'Client Repo',
-                link: <a href="https://github.com/thinkful-ei-orka/spaced-repetition-otm"><FaGithub /></a>,
+                link: <a href="https://github.com/thinkful-ei-orka/spaced-repetition-otm" target="_blank"><FaGithub /></a>,
             },
             {
                 name: 'Server Repo',
-                link: <a href="https://github.com/thinkful-ei-orka/spaced-repetition-api-otm"><FaGithub /></a>,
+                link: <a href="https://github.com/thinkful-ei-orka/spaced-repetition-api-otm" target="_blank"><FaGithub /></a>,
             },
         ]
     },
@@ -220,11 +220,11 @@ const store = [
         links: [
             {
                 name: 'Live Link',
-                link: <a href="https://orkunozekin.github.io/Worlds-Capitals/"><FaLink /></a>
+                link: <a href="https://orkunozekin.github.io/Worlds-Capitals/" target="_blank"><FaLink /></a>
             },
             {
                 name: 'GitHub Repo',
-                link: <a href="https://github.com/orkunozekin/Worlds-Capitals"><FaGithub /></a>,
+                link: <a href="https://github.com/orkunozekin/Worlds-Capitals" target="_blank"><FaGithub /></a>,
             },
         ]
     },
@@ -263,11 +263,11 @@ const store = [
         links: [
             {
                 name: 'Live Link',
-                link: <a href="https://thinkful-ei-orka.github.io/Bookmark-App-Orkun/"><FaLink /></a>
+                link: <a href="https://thinkful-ei-orka.github.io/Bookmark-App-Orkun/" target="_blank"><FaLink /></a>
             },
             {
                 name: 'GitHub Repo',
-                link: <a href="https://github.com/orkunozekin/Bookmark-App"><FaGithub /></a>,
+                link: <a href="https://github.com/orkunozekin/Bookmark-App" target="_blank"><FaGithub /></a>,
             },
         ]
     }
