@@ -14,7 +14,7 @@ const Projects = () => {
             {store.map(project => { //grab each project
                 return <div className="each-project" key={project.name}>
                     <h3 className="project-title">{project.name}</h3>
-                    <Slide easing="ease">
+                    {/* <Slide easing="ease">
                         {project.images.map(eachSlide => {
                             return <div key={eachSlide.imgTitle} className="each-slide">
                              <div style={{ 'backgroundImage': `url(${eachSlide.img})` }}>
@@ -22,10 +22,10 @@ const Projects = () => {
                          </div>
                         })}
                        
-                    </Slide>
-                    {/* {project.images.map(eachImg => { //grab each image
+                    </Slide> */}
+                    {project.images.map(eachImg => { //grab each image
                         return <img key={eachImg.imgTitle} src={eachImg.img} alt={eachImg.imgTitle}></img>
-                    })} */}
+                    })}
                     <ul className="links">{project.links.map(link => {
                         return <li className="link" key={link.name}>
                             <i>{link.link}</i>

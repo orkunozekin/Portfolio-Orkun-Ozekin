@@ -1,7 +1,7 @@
 
     
 
-  .each-slide > div {
+  /* .each-slide > div {
     
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@
     height: 71vh;
   }
 
-
+ */
 
 img {
     object-fit: contain;
@@ -73,7 +73,7 @@ img:hover {
         font-size: 35px;
     }
 
-    .each-slide > div {
+    /* .each-slide > div {
     position: static ;
     display: flex;
     align-items: center;
@@ -82,12 +82,12 @@ img:hover {
     height: 51vh;
     width: 30vw;
     margin: 0 auto;
-  }
+  } */
 }
 
 @media screen and (min-width: 1024px) {
     
-    .each-slide > div {
+    /* .each-slide > div {
         position: static ;
         display: flex;
         align-items: center;
@@ -96,5 +96,5 @@ img:hover {
         height: 57vh;
         width: 25vw;
         margin: 0 auto;
-      }
+      } */
 }
