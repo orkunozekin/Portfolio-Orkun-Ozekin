@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 768px) {
     .hero {
-        background-image: url('../../screenshots//hero-background.jpg');
+        background-image: url('../../screenshots/nature.jpg');
         background-repeat: no-repeat;
         background-position: center; 
         background-size: cover
