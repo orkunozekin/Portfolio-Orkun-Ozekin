@@ -9,9 +9,9 @@ import WCLanding from '../src/screenshots/wc-landing-page.png';
 import WCQuestion from '../src/screenshots/wc-question-page.png';
 import WCResults from '../src/screenshots/wc-results-page.png';
 //Cursr
-import CSBless from '../src/screenshots/cs-bless-page.jpg';
-import CSCurse from '../src/screenshots/cs-curse-page.jpg';
-import CSDashboard from '../src/screenshots/cs-dashboard.jpg';
+import CSBless from '../src/screenshots/cs-bless-page.png';
+import CSCurse from '../src/screenshots/cs-curse-page.png';
+import CSDashboard from '../src/screenshots/cs-dashboard.png';
 //Spaced Repetition
 import SRDashboard from '../src/screenshots/sr-dashboard.png';
 import SRTranslate from '../src/screenshots/sr-translate.png';

@@ -1,10 +1,10 @@
-h1{
+.hero-h1{
     font-size: 2.5em;
     text-align: center;
     font-family: 'Monda', sans-serif;
 }
 
-h2{
+.hero-h2{
     font-size: 1.9em;
     font-family: 'Monda', sans-serif;
 }
@@ -18,4 +18,27 @@ h2{
     top: 0;
     line-height: 1.6;
     height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background-image: url('../../screenshots//hero-background.jpg');
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover
+    }
+
+    .hero-h1{
+        color: #f5f1da;
+        text-shadow: 2px 2px #43658b;
+    }
+    
+    .hero-h2{
+        color: #f5f1da;
+        text-shadow: 3px 3px #43658b;
+    }
+
+    main {
+        padding: 0;
+    }
 }
