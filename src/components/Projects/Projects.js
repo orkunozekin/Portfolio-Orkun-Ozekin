@@ -2,7 +2,8 @@ import React from 'react';
 import store from '../../store';
 import './Projects.css';
 import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+import 'react-slideshow-image/dist/styles.css';
+import SlideShow from '../SlideShow/SlideShow';
 
 const Projects = () => {
     //store the projects in an object of arrays with each array being each project. Each project has fields "name", "description", "images(an array of objects with fields imgTitle and img itself)"
@@ -23,14 +24,14 @@ const Projects = () => {
                         })}
                        
                     </Slide> */}
-                    <div className="images">
-                    {project.images.map(eachImg => { //grab each image
-                        return  <img key={eachImg.imgTitle} src={eachImg.img} alt={eachImg.imgTitle}></img>
-                    })} </div>
+
+                    {project.images.map(eachImg => {
+                        return <img key={eachImg.imgTitle} className="img" src={eachImg.img} alt={eachImg.imgTitle} />
+                    })}
                     <div className="links">{project.links.map(link => {
                         return <div className="link" key={link.name}>
-                            {link.link}
-                            <h4>{link.name}</h4>
+                            <a href={link.url} target="_blank" rel="noopener noreferrer">{link.icon}</a>
+                            <a href={link.url} target="_blank" rel="noopener noreferrer"><h4>{link.name}</h4></a>
                         </div>
                     })}</div>
                     <div>{project.desc}</div>
