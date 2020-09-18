@@ -128,7 +128,7 @@ const store = [
     },
 
     {
-        name: 'Spaced Repetition',
+        name: 'SpeakFast',
         desc: <div><p>Do you want to learn a language by putting in just 15 to 30 minutes of practice a day? Then SpeakFast is just for you. SpeakFast uses the <b>Spaced Repetition algorithm</b> to help people memorize a foreign language. The app displays words in French and asks users to recall the corresponding word in English.</p><p>The words that users can recall more easily will be asked less frequently than those that users have more difficulties recalling, therefore enabling users to memorize each word regardless of difficulty.</p><p>This project was created by a team of three including myself, where I was responsible for writing the functionality of the app on the front end as well as design it.</p></div>,
         images: [
             {
