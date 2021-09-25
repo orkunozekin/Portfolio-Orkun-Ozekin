@@ -15,19 +15,11 @@ const Projects = () => {
             {store.map(project => { //grab each project
                 return <div className="each-project" key={project.name}>
                     <h3 className="project-title">{project.name}</h3>
-                    {/* <Slide easing="ease">
-                        {project.images.map(eachSlide => {
-                            return <div key={eachSlide.imgTitle} className="each-slide">
-                             <div style={{ 'backgroundImage': `url(${eachSlide.img})` }}>
-                             </div>
-                         </div>
-                        })}
-                       
-                    </Slide> */}
+                 
 
                     {project.images.map(eachImg => {
                         return <img key={eachImg.imgTitle} className="img" src={eachImg.img} alt={eachImg.imgTitle} />
-                    })}
+                    })}  
                     <div className="links">{project.links.map(link => {
                         return <div className="link" key={link.name}>
                             <a href={link.url} target="_blank" rel="noopener noreferrer">{link.icon}</a>

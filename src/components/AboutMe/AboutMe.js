@@ -5,9 +5,8 @@ const AboutMe = () => {
     return (
         <section id="about-me">
             <h2>A Little About Myself</h2>
+            <p>I am a software engineer with enterprise-level experience in building high-traffic, public-facing, mobile-first, responsive full-stack web applications in an agile/scrum environment utilizing JavaScript, React, Redux, Java, Spring, and SQL. I enjoy delivering objectives while learning new material, as well as building social relationships with coworkers. I am currently looking for a remote-work opportunity where I can be a valuable asset with my professional experience and soft skills.</p>
             <p>My social life consists mostly of spending time with my wife and son, playing the guitar, and traveling the world.</p>
-            <p>My background in web development began with Thinkful’s Engineering Immersion Program. Web development, since then, has been a passion of mine because making ideas come to life through technology is extremely satisfying.</p>
-            <p>I have a lifetime full of experience of being a team player by playing in various music bands and sports teams, I have been a member of various clubs and organizations throughout my college career, and I am extremely passionate about coding. This is why I am confident I will be a great asset to any team of web developers.</p>
         </section>
     );
 };
